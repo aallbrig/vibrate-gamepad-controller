@@ -7,7 +7,7 @@ namespace Source.Core
     public class VibrationController : MonoBehaviour
     {
 
-        public Gamepad Gamepad { get; private set; }
+        public Gamepad Gamepad { get; set; }
 
         public bool IsVibrating { get; private set; }
 
@@ -34,6 +34,7 @@ namespace Source.Core
             }
         }
 
+        [ExecuteInEditMode]
         public void VibrateController(float duration, float intensity)
         {
             if (Gamepad != null)
@@ -42,7 +43,7 @@ namespace Source.Core
             }
         }
 
-        // duration in seconds, intensity between 0 and 1
+        [ExecuteInEditMode]
         private IEnumerator VibrationRoutine(float duration, float intensity)
         {
             Gamepad.SetMotorSpeeds(intensity * 0.8f, intensity * 1.2f);
