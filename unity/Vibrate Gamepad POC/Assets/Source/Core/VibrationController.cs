@@ -1,8 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-// ReSharper disable once RedundantUsingDirective
-using System.Reflection;
 
 namespace Source.Core
 {
