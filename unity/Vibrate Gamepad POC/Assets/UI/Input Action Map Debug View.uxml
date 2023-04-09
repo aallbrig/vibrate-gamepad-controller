@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Theme.uss?fileID=7433441132597879392&amp;guid=027593d0ad58245cb9f5ef2608ba0505&amp;type=3#Theme" />
+    <Style src="project://database/Assets/UI/DebugViewStyle.uss?fileID=7433441132597879392&amp;guid=0c8d315c91c5f4f4f9e67a41e57fdb5a&amp;type=3#DebugViewStyle" />
+    <ui:VisualElement>
+        <ui:Label text="Input Actions Debug View" display-tooltip-when-elided="true" />
+        <ui:Label name="debugLabel" text="Press an input action" />
+    </ui:VisualElement>
+</ui:UXML>
